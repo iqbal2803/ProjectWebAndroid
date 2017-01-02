@@ -6,11 +6,11 @@
 <body>
     <h2>Data Barang</h2>
 	
-	<p><a href="?page=tampildatabarang">Data Barang</a>
+	<p><a href="index.php?page=barang">Beranda</a> / <a href="index.php?page=tambah-barang">Tambah Data</a></p>
 	
 	<h3>Tambah Barang</h3>
 	
-	<form action="?page=tmbbarang-proses" method="post">
+	<form action="index.php?page=tambah-barang-proses" method="post">
 		<table cellpadding="3" cellspacing="0">
 			<tr>
 				<td>Id Barang</td>
@@ -32,7 +32,12 @@
 				<td>:</td>
 				<td><input type="text" name="stok" size="30" required></td>
 			</tr>
-			
+			<tr>
+			<tr>
+				<td>Gambar</td>
+				<td>:</td>
+				<td><input type="file" name="gambar" required></td>
+			</tr>
 			<tr>
 				<td colspan="3"><hr>
 				<input type="submit" name="tambah" value="Simpan"></td>
