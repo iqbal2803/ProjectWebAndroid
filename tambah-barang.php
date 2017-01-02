@@ -30,7 +30,7 @@
 			<tr>
 				<td>Stok</td>
 				<td>:</td>
-				<td><input type="text" name="stok" size="30" required></td>
+				<td><input type="number" name="stok" size="30" required></td>
 			</tr>
 			
 			<tr>
