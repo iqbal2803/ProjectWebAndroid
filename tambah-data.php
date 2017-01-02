@@ -10,7 +10,7 @@
 	
 	<h3>Tambah Data Karyawan</h3>
 	
-	<form action="?page=tambah-proses" method="post">
+	<form action="?page=tmbuser-proses" method="post">
 		<table cellpadding="3" cellspacing="0">
 			<tr>
 				<td>ID USER</td>
