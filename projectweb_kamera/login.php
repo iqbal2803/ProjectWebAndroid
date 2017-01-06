@@ -10,7 +10,7 @@
 		<tr>	
 			<td valign="top"><label>Password</label></td>
 			<td valign="top">:</td>
-			<td><input class="span3" placeholder="Password" type="text" name="password" required></td>
+			<td><input class="span3" placeholder="Password" type="password" name="password" required></td>
 		</tr>
 		<tr>
 			<td colspan="3" align="right"><button class="btn-info btn" type="submit">Login</button></td>
